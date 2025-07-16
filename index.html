@@ -1,53 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>TIC TAC TOE DOWNLOAD</title>
-    <style>
-        body {
-            background-color: #f06292;
-        }
-        .container {
-            text-align: center;
-            background-color:   
-            border-radius: 80px;  
-            
-            }
-            a {
-                color: white;
-                background-color: red; 
-                padding: 8px;
-                border-radius: 20px;
-            }
-            .sai{
-                text-align: left;
-                padding: 8px;
-                margin: 0px 0px 0px 30px;
-                font-size: 50px;
-                
-            }
-            
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tic Tac Toe Download</title>
+  <!-- ✅ Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <div class="container">
-        <h1>Tic Tac Toe Game</h1>
-        <img src="logo.png" alt="" width="400" height="400">
-        <br>
-        <br>
-    <a href="tictactoesaikumar_#9_3.2.apk" download style="font-size: 50px;">download the apk</a>
-    <br>
-    <br>
-    
-    <a href="https://www.amazon.com/dp/B0D548M232/ref=apps_sf_sta">
-     <img src="store.png" alt="" width=""></a>
-    
-    <h1 class="sai">preview</h1>
-    <img src="1.png" alt="" width="33.3%">
-    <img src="2.png" alt="" width="33.3%">
-    <img src="3.png" alt="" width="33.3%">
-     <img src="4.png" alt="" width="33.3%">
-      <img src="5.png" alt="" width="33.3%">
-    
+<body class="bg-pink-400 font-sans">
+
+  <div class="max-w-4xl mx-auto p-6 text-center bg-white/60 rounded-3xl mt-10 shadow-xl">
+    <h1 class="text-4xl font-bold text-gray-800 mb-6">Tic Tac Toe Game</h1>
+    <img src="logo.png" alt="Tic Tac Toe Logo" class="mx-auto w-64 h-64 object-contain mb-6" />
+
+    <a href="tictactoesaikumar_#9_3.2.apk" download
+       class="inline-block text-white bg-red-500 hover:bg-red-600 text-2xl font-semibold px-6 py-3 rounded-full transition duration-300">
+      Download the APK
+    </a>
+
+    <div class="my-6">
+      <a href="https://www.amazon.com/dp/B0D548M232/ref=apps_sf_sta" target="_blank">
+        <img src="store.png" alt="Amazon Store Link" class="mx-auto w-48 hover:scale-105 transition-transform duration-300" />
+      </a>
+    </div>
+
+    <h2 class="text-left text-3xl font-bold text-gray-700 mb-4 ml-6">Preview</h2>
+    <div class="grid grid-cols-2 md:grid-cols-3 gap-4 px-4 mb-10">
+      <img src="1.png" alt="Preview 1" class="rounded-xl shadow" />
+      <img src="2.png" alt="Preview 2" class="rounded-xl shadow" />
+      <img src="3.png" alt="Preview 3" class="rounded-xl shadow" />
+      <img src="4.png" alt="Preview 4" class="rounded-xl shadow" />
+      <img src="5.png" alt="Preview 5" class="rounded-xl shadow" />
+    </div>
+  </div>
+
 </body>
 </html>
