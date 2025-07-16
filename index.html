@@ -3,39 +3,115 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Tic Tac Toe Download</title>
-  <!-- ✅ Tailwind CSS CDN -->
+  <title>Tic Tac Toe Game Download</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-pink-400 font-sans">
+<body class="bg-gradient-to-br from-pink-400 to-rose-500 min-h-screen font-sans">
 
-  <div class="max-w-4xl mx-auto p-6 text-center bg-white/60 rounded-3xl mt-10 shadow-xl">
-    <h1 class="text-4xl font-bold text-gray-800 mb-6">Tic Tac Toe Game</h1>
-    
-    <img src="logo.png" alt="Tic Tac Toe Logo" class="mx-auto w-64 h-64 object-contain mb-6" />
+  <header class="w-full text-white py-6 bg-pink-600 shadow-lg">
+    <h1 class="text-5xl font-extrabold text-center tracking-tight">Tic Tac Toe Game</h1>
+    <p class="text-center mt-2 text-xl font-light">Download, Play, and Enjoy the Classic Game</p>
+  </header>
 
-    <!-- ✅ Working download link -->
-    <a href="https://raw.githubusercontent.com/saikumar911/Download-tic-tac-toe-game/main/tictactoesaikumar_%239_3.2.apk" download
-       class="inline-block text-white bg-red-500 hover:bg-red-600 text-2xl font-semibold px-6 py-3 rounded-full transition duration-300">
-      Download the APK
-    </a>
+  <main class="max-w-7xl mx-auto p-6">
+    <section class="bg-white/70 backdrop-blur-lg rounded-3xl shadow-2xl p-10 my-10">
+      <div class="flex flex-col md:flex-row items-center justify-center gap-8">
+        <div class="w-full md:w-1/2">
+          <img src="logo.png" alt="Game Logo" class="rounded-xl mx-auto w-64 h-64 object-contain" />
+        </div>
+        <div class="w-full md:w-1/2 text-center md:text-left">
+          <h2 class="text-3xl font-bold text-gray-800 mb-4">Get the Game</h2>
+          <a href="https://raw.githubusercontent.com/saikumar911/Download-tic-tac-toe-game/main/tictactoesaikumar_%239_3.2.apk" download
+             class="inline-block bg-red-500 hover:bg-red-600 text-white text-2xl font-semibold px-8 py-4 rounded-full transition duration-300">
+            Download APK
+          </a>
+          <p class="mt-4 text-gray-600 text-lg">Simple to play. No login required. Just install and play offline!</p>
+        </div>
+      </div>
+    </section>
 
-    <div class="my-6">
-      <a href="https://www.amazon.com/dp/B0D548M232/ref=apps_sf_sta" target="_blank">
-        <img src="store.png" alt="Amazon Store Link" class="mx-auto w-48 hover:scale-105 transition-transform duration-300" />
-      </a>
-    </div>
+    <section class="bg-white/80 p-8 rounded-3xl shadow-xl my-10">
+      <h3 class="text-3xl font-semibold text-gray-800 mb-6 text-center">Also Available on Amazon</h3>
+      <div class="flex justify-center">
+        <a href="https://www.amazon.com/dp/B0D548M232/ref=apps_sf_sta" target="_blank">
+          <img src="store.png" alt="Amazon Link" class="w-52 hover:scale-105 transition-transform duration-300 rounded-xl shadow" />
+        </a>
+      </div>
+    </section>
 
-    <h2 class="text-left text-3xl font-bold text-gray-700 mb-4 ml-6">Preview</h2>
-    
-    <div class="grid grid-cols-2 md:grid-cols-3 gap-4 px-4 mb-10">
-      <img src="1.png" alt="Preview 1" class="rounded-xl shadow" />
-      <img src="2.png" alt="Preview 2" class="rounded-xl shadow" />
-      <img src="3.png" alt="Preview 3" class="rounded-xl shadow" />
-      <img src="4.png" alt="Preview 4" class="rounded-xl shadow" />
-      <img src="5.png" alt="Preview 5" class="rounded-xl shadow" />
-    </div>
-  </div>
+    <section class="bg-white/90 rounded-3xl p-10 shadow-lg my-10">
+      <h3 class="text-3xl font-bold text-gray-700 mb-8 ml-4">Preview Screenshots</h3>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+        <img src="1.png" alt="Preview 1" class="rounded-lg shadow-xl hover:scale-105 transition duration-300" />
+        <img src="2.png" alt="Preview 2" class="rounded-lg shadow-xl hover:scale-105 transition duration-300" />
+        <img src="3.png" alt="Preview 3" class="rounded-lg shadow-xl hover:scale-105 transition duration-300" />
+        <img src="4.png" alt="Preview 4" class="rounded-lg shadow-xl hover:scale-105 transition duration-300" />
+        <img src="5.png" alt="Preview 5" class="rounded-lg shadow-xl hover:scale-105 transition duration-300" />
+        <div class="bg-pink-100 rounded-xl flex items-center justify-center text-3xl text-pink-800 font-bold shadow-inner">
+          More Coming Soon!
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-white rounded-2xl p-6 mt-10 shadow-lg">
+      <h3 class="text-2xl font-bold text-gray-700 mb-4">Game Features</h3>
+      <ul class="list-disc ml-8 text-lg text-gray-600 space-y-2">
+        <li>Classic 2-player gameplay mode</li>
+        <li>AI mode with increasing levels</li>
+        <li>Custom player names & avatars</li>
+        <li>Offline functionality, no ads</li>
+        <li>Vibrant colors and animations</li>
+        <li>Fast and lightweight app</li>
+        <li>Fully tested on Android 10+</li>
+        <li>Free and open-source</li>
+      </ul>
+    </section>
+
+    <section class="bg-rose-100 mt-10 rounded-2xl p-6 shadow-md">
+      <h3 class="text-2xl font-bold text-rose-700 mb-2">Support & Feedback</h3>
+      <p class="text-lg text-gray-700">
+        Found a bug or want to suggest a feature?
+        <br />
+       <!-- <a href="mailto:saikumar@example.com" class="text-rose-600 underline hover:text-rose-800">Email Saikumar</a>-->
+      </p>
+    </section>
+
+    <section class="bg-gray-800 mt-10 p-8 rounded-2xl text-white">
+      <h3 class="text-2xl font-semibold mb-2">Follow for More Games</h3>
+      <p class="text-gray-300">Subscribe to get updates on new apps:</p>
+      <form class="mt-4 max-w-md">
+        <input type="email" placeholder="Enter your email"
+               class="px-4 py-2 rounded-lg text-black w-full mb-4" />
+        <button type="submit"
+                class="w-full px-6 py-2 bg-pink-600 hover:bg-pink-700 text-white rounded-lg">
+          Subscribe
+        </button>
+      </form>
+    </section>
+
+    <section class="bg-white/70 mt-10 p-6 rounded-2xl shadow">
+      <h3 class="text-2xl font-bold text-gray-800 mb-4">FAQs</h3>
+      <div class="space-y-4 text-gray-700">
+        <details class="bg-gray-100 p-4 rounded-lg">
+          <summary class="cursor-pointer font-semibold">Is this game free?</summary>
+          <p class="mt-2">Yes! It's 100% free with no ads or in-app purchases.</p>
+        </details>
+        <details class="bg-gray-100 p-4 rounded-lg">
+          <summary class="cursor-pointer font-semibold">Does it require internet?</summary>
+          <p class="mt-2">Nope. The game works perfectly offline.</p>
+        </details>
+        <details class="bg-gray-100 p-4 rounded-lg">
+          <summary class="cursor-pointer font-semibold">What Android versions are supported?</summary>
+          <p class="mt-2">Android 5.0 and above are fully supported.</p>
+        </details>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-gray-900 text-white text-center py-6 mt-10">
+    <p>&copy; 2025 Saikumar | All rights reserved</p>
+    <p class="text-sm mt-1"></p>
+  </footer>
 
 </body>
 </html>
